@@ -304,7 +304,7 @@ button {
 	top: 0;
 	left: 0;
 	z-index: 9999;
-	background-color: #e035a0;
+	background-color: #000000;
 	height: 100%;
 	width: 100%;
 	-webkit-transition: all .5s .5s ease;
@@ -427,7 +427,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
 }
 
 .navbar-fixed-top.header-section {
-	background: linear-gradient(-46deg, #e035a0 50%, #714ac7 100%);
+	background: linear-gradient(-46deg, #000000 50%, #0000FF 100%);
 	box-shadow: 0px 16px 28px 0px rgba(0, 0, 0, .05);
 	height: 70px;
 	border-bottom: 0;
@@ -702,7 +702,7 @@ ul.nav > li > a:hover, ul.nav > li > a:focus, ul.nav > li > a.active {
 }
 
 .promo-content i {
-	background-image: linear-gradient(-45deg, #e035a0 50%, #714ac7 100%);
+	background-image: linear-gradient(-45deg, #000000 50%, #0000FF 100%);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -730,7 +730,7 @@ ul.nav > li > a:hover, ul.nav > li > a:focus, ul.nav > li > a.active {
 }
 
 .video-section:before {
-	background: linear-gradient(-45deg, #e035a0 50%, #714ac7 100%);
+	background: linear-gradient(-45deg, #000000 50%, #0000FF 100%);
 	content: "";
 	width: 100%;
 	height: 100%;
@@ -752,7 +752,7 @@ ul.nav > li > a:hover, ul.nav > li > a:focus, ul.nav > li > a.active {
 	line-height: 80px;
 	text-align: center;
 	display: block;
-	color: #714ac7;
+	color: #0000FF;
 	border-radius: 50%;
 	position: relative;
 	margin: 0 auto;
@@ -819,9 +819,9 @@ ul.nav > li > a:hover, ul.nav > li > a:focus, ul.nav > li > a.active {
 
 .feature-content {
 	border: 5px solid transparent;
-	-moz-border-image: -moz-linear-gradient(-45deg, #e035a0 50%, #714ac7 100%);
-	-webkit-border-image: -webkit-linear-gradient(-45deg, #e035a0 50%, #714ac7 100%);
-	border-image: linear-gradient(-45deg, #e035a0 50%, #714ac7 100%);
+	-moz-border-image: -moz-linear-gradient(-45deg, #000000 50%, #0000FF 100%);
+	-webkit-border-image: -webkit-linear-gradient(-45deg, #000000 50%, #0000FF 100%);
+	border-image: linear-gradient(-45deg, #000000 50%, #0000FF 100%);
 	border-image-slice: 1;
 	padding: 40px 15px;
 	transition: all .3s ease-in-out;
@@ -829,9 +829,9 @@ ul.nav > li > a:hover, ul.nav > li > a:focus, ul.nav > li > a.active {
 
 .feature-content:hover {
 	border: 5px solid transparent;
-	-moz-border-image: -moz-linear-gradient(-45deg, #714ac7 50%, #e035a0 100%);
-	-webkit-border-image: -webkit-linear-gradient(-45deg, #714ac7 50%, #e035a0 100%);
-	border-image: linear-gradient(-45deg, #714ac7 50%, #e035a0 100%);
+	-moz-border-image: -moz-linear-gradient(-45deg, #0000FF 50%, #000000 100%);
+	-webkit-border-image: -webkit-linear-gradient(-45deg, #0000FF 50%, #000000 100%);
+	border-image: linear-gradient(-45deg, #0000FF 50%, #000000 100%);
 	border-image-slice: 1;
 	transition: all .3s ease-in-out;
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
@@ -850,7 +850,7 @@ ul.nav > li > a:hover, ul.nav > li > a:focus, ul.nav > li > a.active {
 }
 
 .feature-content i {
-	background-image: linear-gradient(-45deg, #e035a0 50%, #714ac7 100%);
+	background-image: linear-gradient(-45deg, #000000 50%, #0000FF 100%);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -872,7 +872,7 @@ html {
 
 .owl-nav div {
 	display: block;
-	background-image: linear-gradient(-45deg, #e035a0 50%, #714ac7 100%);
+	background-image: linear-gradient(-45deg, #000000 50%, #0000FF 100%);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -900,7 +900,7 @@ html {
 }
 
 .screenshots-section {
-	background: linear-gradient(-45deg, #e035a0 50%, #714ac7 100%);
+	background: linear-gradient(-45deg, #000000 50%, #0000FF 100%);
 	padding-bottom: 53px;
 }
 
@@ -1078,7 +1078,7 @@ html {
 }
 
 .download-section {
-	background: linear-gradient(-45deg, #e035a0 50%, #714ac7 100%);
+	background: linear-gradient(-45deg, #000000 50%, #0000ff 100%);
 	padding: 120px;
 	position: relative;
 	overflow: hidden;
@@ -1137,7 +1137,7 @@ html {
 }
 
 .blog-content a:hover {
-	color: #e035a0;
+	color: #000000;
 }
 
 .post-meta {
@@ -1150,7 +1150,7 @@ html {
 }
 
 .post-meta div {
-	background: linear-gradient(-45deg, #e035a0 50%, #714ac7 100%);
+	background: linear-gradient(-45deg, #000000 50%, #0000FF 100%);
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
 	padding: 10px 15px;
 	display: inline-block;
@@ -1171,7 +1171,7 @@ html {
 }
 
 .blog-post, .blog-content .read-more {
-	background-color: #714ac7;
+	background-color: #0000FF;
 	font-size: 14px;
 	font-weight: 500;
 	text-transform: capitalize;
@@ -1185,7 +1185,7 @@ html {
 }
 
 .blog-content .read-more:hover {
-	background-color: #e035a0;
+	background-color: #000000;
 	color: #fff;
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
 	-webkit-transform: translateY(-1.1px);
@@ -1194,7 +1194,7 @@ html {
 }
 
 .subscribe-section {
-	background: linear-gradient(-45deg, #e035a0 50%, #714ac7 100%);
+	background: linear-gradient(-45deg, #000000 50%, #0000FF 100%);
 }
 
 .subscribe-section .logo {
@@ -1249,12 +1249,12 @@ html {
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: 600;
-	color: #e035a0;
+	color: #000000;
 }
 
 .subscribe-form .submit:hover {
 	cursor: pointer;
-	color: #e035a0;
+	color: #000000;
 }
 
 #subscribe-result {
@@ -1310,7 +1310,7 @@ html {
 }
 
 #scroll-to-top {
-	background-color: #e035a0;
+	background-color: #000000;
 	display: none;
 	width: 45px;
 	height: 45px;
@@ -1326,6 +1326,6 @@ html {
 }
 
 #scroll-to-top:hover {
-	background-color: #0bbf6c;
+	background-color: #0000ff;
 	color: #fff;
 }
