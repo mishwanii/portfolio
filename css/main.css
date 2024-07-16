@@ -299,9 +299,34 @@ button {
 	z-index: -1;
 }
 
-/* Hide preloader on all devices */
 #preloader {
-    display: none !important;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	background-color: #e035a0;
+	height: 100%;
+	width: 100%;
+	-webkit-transition: all .5s .5s ease;
+	-moz-transition: all .5s .5s ease;
+	transition: all .5s .2s ease;
+}
+
+.loader {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	width: 60px;
+	height: 60px;
+	display: block;
+	margin: auto;
+	margin-top: -30px;
+}
+
+body.loaded #preloader {
+	opacity: 0;
+	visibility: hidden;
 }
 
 
