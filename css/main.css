@@ -1316,7 +1316,7 @@ html {
 	height: 45px;
 	text-align: center;
 	font-size: 14px;
-	border-radius: 50%;
+	border-radius: 5px;
 	line-height: 45px;
 	color: #fff;
 	position: fixed;
