@@ -436,6 +436,7 @@ ul.nav > li > a.active{
     position: absolute;
     right: 0;
     top: 70px;
+    box-sizing: border-box; /* Add this line */
 }
 .slicknav_nav {
     background-color: #fff;
