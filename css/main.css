@@ -1310,7 +1310,7 @@ html {
 }
 
 #scroll-to-top {
-	background-color: #000000;
+	background-color: #0000FF;
 	display: none;
 	width: 45px;
 	height: 45px;
@@ -1326,6 +1326,6 @@ html {
 }
 
 #scroll-to-top:hover {
-	background-color: #0000ff;
+	background-color: #000000;
 	color: #fff;
 }
