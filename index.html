@@ -2,344 +2,417 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="GPA Calculator & Planner is an android application that helps in calculating University's GPA and cGPA.">
-        <meta name="author" content="Abu Zar Mishwani">
-       
-        <title>GPA Calculator & Planner</title>
-        
-		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-		
-		<!-- Font Awesome CSS -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <!-- Elegant Font Icons CSS -->
-        <link rel="stylesheet" href="css/elegant-font-icons.css">
-        <!-- Elegant Line Icons CSS -->
-        <link rel="stylesheet" href="css/elegant-line-icons.css">
-		<!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- Venobox CSS -->
-        <link rel="stylesheet" href="css/venobox/venobox.css">
-        <!-- Slicknav CSS -->
-        <link rel="stylesheet" href="css/slicknav.min.css">
-        <!-- animate CSS -->
-        <link rel="stylesheet" href="css/animate.min.css">
-		<!-- OWL-Carousel CSS -->
-        <link rel="stylesheet" href="css/owl.carousel.css">
-        <!-- Swiper CSS -->
-        <link rel="stylesheet" href="css/swiper.min.css">
-		<!-- Main CSS -->
-        <link rel="stylesheet" href="css/main.css">
-		<!-- Responsive CSS -->
-        <link rel="stylesheet" href="css/responsive.css">
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+    content="GPA Calculator & Planner is an android application that helps in calculating University's GPA and cGPA.">
+    <meta name="author" content="Abu Zar Mishwani">
+    <title>GPA Calculator & Planner</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Elegant Font Icons CSS -->
+    <link rel="stylesheet" href="css/elegant-font-icons.css">
+    <!-- Elegant Line Icons CSS -->
+    <link rel="stylesheet" href="css/elegant-line-icons.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Venobox CSS -->
+    <link rel="stylesheet" href="css/venobox/venobox.css">
+    <!-- Slicknav CSS -->
+    <link rel="stylesheet" href="css/slicknav.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- OWL-Carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
 
-
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
-    <body data-spy="scroll" data-target="#navmenu" data-offset="70">
-        <!--[if lt IE 8]>
+<body data-spy="scroll" data-target="#navmenu" data-offset="70">
+    <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-        <div id="preloader">
-            <div class="loader">
-                <img src="img/preloader.svg" alt="Loading...">
-            </div>
-        </div><!-- Preloader -->
-        
-        <header id="header" class="header-section">
-            <div class="container">
-                <nav class="navbar">
-                    <a href="#" class="navbar-brand">
-                        <img class="logo-dark" src="img/logo-dark.png" alt="gpacalculator">
-                        <img class="logo-light" src="img/logo-light.png" alt="gpacalculator">
-                    </a>
-                    <div class="d-flex menu-wrap">
-                       <div id="navmenu" class="mainmenu">
-                           <ul class="nav">
-                                <li ><a data-scroll class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a></li>
-                                <li><a data-scroll class="nav-link" href="#features">Features</a></li>
-                                <li><a data-scroll class="nav-link" href="#screenshots">Screenshots</a></li>
-                                <li><a data-scroll class="nav-link" href="#download">Download</a></li>
-                            </ul>
-                            
-                       </div>
+    <div id="preloader">
+        <div class="loader">
+            <img src="img/preloader.svg" alt="Loading...">
+        </div>
+    </div>
+    <!-- Preloader -->
+    <header id="header" class="header-section">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="navbar-brand">
+                    <img class="logo-dark" src="img/logo-dark.png" alt="gpacalculator">
+                    <img class="logo-light" src="img/logo-light.png" alt="gpacalculator">
+                </a>
+                <div class="d-flex menu-wrap">
+                    <div id="navmenu" class="mainmenu">
+                        <ul class="nav">
+                            <li>
+                                <a data-scroll class="nav-link active" href="#home">Home
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-scroll class="nav-link" href="#features">Features</a>
+                            </li>
+                            <li>
+                                <a data-scroll class="nav-link" href="#screenshots">Screenshots</a>
+                            </li>
+                            <li>
+                                <a data-scroll class="nav-link" href="#download">Download</a>
+                            </li>
+                        </ul>
                     </div>
-                </nav>
-            </div>
-		</header> <!-- /.header-section -->  
-		
-		<section id="home" class="hero-section">
-		    <div class="container">
-		    	<div class="row hero-inner">
-		    		<div class="col-lg-9">
-		    			<div class="hero-content">
-				            <h1>GPA Calculator <br>& Planner!</h1>
-                            <h4>Efficient. Accurate. Intuitive.</h4>
-                            <p>Calculate GPA and CGPA effortlessly. Plan your academic journey <br>with precision using our GPA Calculator & Planner app, designed <br>to simplify grade tracking and goal setting.</p>
-				            <div class="hero-btn">
-		                        <a href="https://play.google.com/store/apps/details?id=advc.calc.easygpacalculator" class="download-btn"><img src="img/playstore.png" alt="btn"></a>
-				            </div>
-				        </div>
-		    		</div>
-		    		<div class="hero-moc"></div>
-		    	</div>
-		    </div>
-		</section><!-- /.hero-section --> 
-		
-        <section class="promo-section padding">
-            <div class="container">
-                <div class="promo-wrap row">
-                    <div class="col-md-4 col-sm-6 sm-padding">
-                        <div class="promo-content text-center">
-                            <div class="icon"><i class="fas fa-tachometer-alt"></i></div>
-                            <h3>Efficient.</h3>
-                            <p>Streamline GPA and CGPA calculations effortlessly, ensuring quick and accurate results for effective academic planning.</p>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- /.header-section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row hero-inner">
+                <div class="col-lg-9">
+                    <div class="hero-content">
+                        <h1>GPA Calculator
+                            <br>& Planner!
+                        </h1>
+                        <h4>Efficient. Accurate. Intuitive.</h4>
+                        <p>Calculate GPA and CGPA effortlessly. Plan your academic journey
+                            <br>with precision using our GPA Calculator & Planner app, designed
+                            <br>to simplify grade tracking and goal setting.
+                        </p>
+                        <div class="hero-btn">
+                            <a href="https://play.google.com/store/apps/details?id=advc.calc.easygpacalculator"
+                                class="download-btn">
+                                <img src="img/playstore.png" alt="btn">
+                            </a>
                         </div>
-                    </div><!-- Promo-1 -->
-                    <div class="col-md-4 col-sm-6 sm-padding">
-                        <div class="promo-content text-center">
-                            <div class="icon"><i class="fas fa-bullseye"></i></div>
-                            <h3>Accurate.</h3>
-                            <p>Ensure precise GPA and CGPA calculations, providing reliable insights into your academic performance and goals.</p>
-                        </div>
-                    </div><!-- Promo-2 -->
-                    <div class="col-md-4 col-sm-6 sm-padding">
-                        <div class="promo-content text-center">
-                            <div class="icon"><i class="fas fa-lightbulb"></i></div>
-                            <h3>Intuitive.</h3>
-                            <p>User-friendly interface for seamless GPA tracking and planning, making academic management straightforward and accessible.</p>
-                        </div>
-                    </div><!-- Promo-3 -->
+                    </div>
+                </div>
+                <div class="hero-moc">
                 </div>
             </div>
-        </section>
-		
-        <section id="features" class="feature-section padding">
-            <div class="container">
-                <div class="section-heading mb-60 text-center">
-                    <h2>GPA Calculator & Planner Features</h2>
-                    <p>Discover the powerful features that make GPA calculation and planning a breeze. <br>Our tool is designed to simplify and enhance your academic journey.</p>
+        </div>
+    </section>
+    <!-- /.hero-section -->
+    <section class="promo-section padding">
+        <div class="container">
+            <div class="promo-wrap row">
+                <div class="col-md-4 col-sm-6 sm-padding">
+                    <div class="promo-content text-center">
+                        <div class="icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <h3>Efficient.</h3>
+                        <p>Streamline GPA and CGPA calculations effortlessly, ensuring quick and accurate results for
+                            effective academic planning.</p>
+                    </div>
                 </div>
-                <div id="feature-carousel" class="feature-carousel owl-carousel">
-                    <div class="feature-item">
-                        <div class="feature-content text-center">
-                            <div class="icon"><i class="fas fa-calculator"></i></div>
-                            <h3>Effortless Calculation</h3>
-                            <p>Calculate your GPA quickly and easily with our intuitive interface.</p>
+                <!-- Promo-1 -->
+                <div class="col-md-4 col-sm-6 sm-padding">
+                    <div class="promo-content text-center">
+                        <div class="icon">
+                            <i class="fas fa-bullseye"></i>
                         </div>
-                    </div><!-- Feature-1 -->
-                    <div class="feature-item">
-                        <div class="feature-content text-center">
-                            <div class="icon"><i class="fas fa-calendar-alt"></i></div>
-                            <h3>Planning Tool</h3>
-                            <p>Organize your academic plans and set goals with our planner.</p>
+                        <h3>Accurate.</h3>
+                        <p>Ensure precise GPA and CGPA calculations, providing reliable insights into your academic
+                            performance and goals.</p>
+                    </div>
+                </div>
+                <!-- Promo-2 -->
+                <div class="col-md-4 col-sm-6 sm-padding">
+                    <div class="promo-content text-center">
+                        <div class="icon">
+                            <i class="fas fa-lightbulb"></i>
                         </div>
-                    </div><!-- Feature-2 -->
-                    <div class="feature-item">
-                        <div class="feature-content text-center">
-                            <div class="icon"><i class="fas fa-table"></i></div>
-                            <h3>Automatic Tables</h3>
-                            <p>Automatically generate tables to visualize your grades and progress.</p>
+                        <h3>Intuitive.</h3>
+                        <p>User-friendly interface for seamless GPA tracking and planning, making academic management
+                            straightforward and accessible.</p>
+                    </div>
+                </div>
+                <!-- Promo-3 -->
+            </div>
+        </div>
+    </section>
+    <section id="features" class="feature-section padding">
+        <div class="container">
+            <div class="section-heading mb-60 text-center">
+                <h2>GPA Calculator & Planner Features</h2>
+                <p>Discover the powerful features that make GPA calculation and planning a breeze.
+                    <br>Our tool is designed to simplify and enhance your academic journey.
+                </p>
+            </div>
+            <div id="feature-carousel" class="feature-carousel owl-carousel">
+                <div class="feature-item">
+                    <div class="feature-content text-center">
+                        <div class="icon">
+                            <i class="fas fa-calculator"></i>
                         </div>
-                    </div><!-- Feature-3 -->
-                    <div class="feature-item">
-                        <div class="feature-content text-center">
-                            <div class="icon"><i class="fas fa-cogs"></i></div>
-                            <h3>Custom Tables</h3>
-                            <p>Create custom tables tailored to your specific needs.</p>
+                        <h3>Effortless Calculation</h3>
+                        <p>Calculate your GPA quickly and easily with our intuitive interface.</p>
+                    </div>
+                </div>
+                <!-- Feature-1 -->
+                <div class="feature-item">
+                    <div class="feature-content text-center">
+                        <div class="icon">
+                            <i class="fas fa-calendar-alt"></i>
                         </div>
-                    </div><!-- Feature-4 -->
-                    <div class="feature-item">
-                        <div class="feature-content text-center">
-                            <div class="icon"><i class="fas fa-check"></i></div>
-                            <h3>Instant Grades</h3>
-                            <p>Get instant grade calculations and updates.</p>
+                        <h3>Planning Tool</h3>
+                        <p>Organize your academic plans and set goals with our planner.</p>
+                    </div>
+                </div>
+                <!-- Feature-2 -->
+                <div class="feature-item">
+                    <div class="feature-content text-center">
+                        <div class="icon">
+                            <i class="fas fa-table"></i>
                         </div>
-                    </div><!-- Feature-5 -->
-                    <div class="feature-item">
-                        <div class="feature-content text-center">
-                            <div class="icon"><i class="fas fa-wifi"></i></div>
-                            <h3>Fully Offline</h3>
-                            <p>Access all features without needing an internet connection.</p>
+                        <h3>Automatic Tables</h3>
+                        <p>Automatically generate tables to visualize your grades and progress.</p>
+                    </div>
+                </div>
+                <!-- Feature-3 -->
+                <div class="feature-item">
+                    <div class="feature-content text-center">
+                        <div class="icon">
+                            <i class="fas fa-cogs"></i>
                         </div>
-                    </div><!-- Feature-6 -->
+                        <h3>Custom Tables</h3>
+                        <p>Create custom tables tailored to your specific needs.</p>
+                    </div>
+                </div>
+                <!-- Feature-4 -->
+                <div class="feature-item">
+                    <div class="feature-content text-center">
+                        <div class="icon">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <h3>Instant Grades</h3>
+                        <p>Get instant grade calculations and updates.</p>
+                    </div>
+                </div>
+                <!-- Feature-5 -->
+                <div class="feature-item">
+                    <div class="feature-content text-center">
+                        <div class="icon">
+                            <i class="fas fa-wifi"></i>
+                        </div>
+                        <h3>Fully Offline</h3>
+                        <p>Access all features without needing an internet connection.</p>
+                    </div>
+                </div>
+                <!-- Feature-6 -->
+            </div>
+        </div>
+    </section>
+    <!-- /.feature-section -->
+    <section id="screenshots" class="screenshots-section padding">
+        <div class="container">
+            <div class="section-heading mb-60 text-center">
+                <h2 class="text-white">Screenshots</h2>
+                <p class="text-white">Explore the features of GPA Calculator & Planner through our screenshots.</p>
+            </div>
+            <div class="swiper-container">
+                <div class="mobile-mock">
+                    <div class="screen">
+                    </div>
+                    <div class="circle">
+                    </div>
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="w-100" src="img/screenshot-1.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="w-100" src="img/screenshot-2.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="w-100" src="img/screenshot-3.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="w-100" src="img/screenshot-4.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="w-100" src="img/screenshot-5.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="w-100" src="img/screenshot-6.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="w-100" src="img/screenshot-7.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="w-100" src="img/screenshot-8.jpg" alt="screenshot">
+                    </div>
+                </div>
+                <!-- Carousel Arrows -->
+                <div class="swiper-next">
+                    <i class=" arrow_carrot-right"></i>
+                </div>
+                <div class="swiper-prev">
+                    <i class=" arrow_carrot-left"></i>
                 </div>
             </div>
-        </section><!-- /.feature-section -->
-        
-		
-		<section id="screenshots" class="screenshots-section padding">
-		    <div class="container">
-		        <div class="section-heading mb-60 text-center">
-		            <h2 class="text-white">Screenshots</h2>
-		            <p class="text-white">Explore the features of GPA Calculator & Planner through our screenshots.</p>
-		        </div>
-		         <div class="swiper-container">
-                    <div class="mobile-mock">
-                        <div class="screen"></div>
-                        <div class="circle"></div>
-                    </div>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                        	<img class="w-100" src="img/screenshot-1.jpg" alt="screenshot">
-                        </div>
-                        <div class="swiper-slide">
-                        	<img class="w-100" src="img/screenshot-2.jpg" alt="screenshot">
-                        </div>
-                        <div class="swiper-slide">
-                        	<img class="w-100" src="img/screenshot-3.jpg" alt="screenshot">
-                        </div>
-                        <div class="swiper-slide">
-                        	<img class="w-100" src="img/screenshot-4.jpg" alt="screenshot">
-                        </div>
-                        <div class="swiper-slide">
-                        	<img class="w-100" src="img/screenshot-5.jpg" alt="screenshot">
-                        </div>
-                        <div class="swiper-slide">
-                        	<img class="w-100" src="img/screenshot-6.jpg" alt="screenshot">
-                        </div>
-                        <div class="swiper-slide">
-                        	<img class="w-100" src="img/screenshot-7.jpg" alt="screenshot">
-                        </div>
-                        <div class="swiper-slide">
-                        	<img class="w-100" src="img/screenshot-8.jpg" alt="screenshot">
+        </div>
+    </section>
+    <!-- /.screenshots-section -->
+    <section id="reviews" class="testimonial-section padding">
+        <div class="container">
+            <div class="section-heading mb-60 text-center">
+                <h2>What People Say</h2>
+                <p>Discover what our users are saying about our GPA Calculator & Planner app.</p>
+            </div>
+            <div id="testimonial-carousel" class="testimonial-carousel owl-carousel">
+                <div class="testimonial-item">
+                    <p>I found the GPA calculator app to be incredibly useful for keeping track of my grades. It's
+                        intuitive to use, allowing me to easily input my courses and grades, and it quickly calculates
+                        my GPA. The interface is clean and straightforward, making it easy to navigate. One feature I
+                        particularly liked was the ability to set goals for my GPA and see what grades I need in future
+                        assignments to achieve them.</p>
+                    <div class="testi-footer">
+                        <h4>Muhammad Akbar</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                         </div>
                     </div>
-                    <!-- Carousel Arrows -->
-				    <div class="swiper-next"><i class=" arrow_carrot-right"></i></div>
-				    <div class="swiper-prev"><i class=" arrow_carrot-left"></i></div>
                 </div>
-		    </div>
-		</section><!-- /.screenshots-section -->
-		
-        <section id="reviews" class="testimonial-section padding">
-            <div class="container">
-                <div class="section-heading mb-60 text-center">
-                    <h2>What People Say</h2>
-                    <p>Discover what our users are saying about our GPA Calculator & Planner app.</p>
+                <div class="testimonial-item">
+                    <p>I absolutely love the GPA calculator! It's user-friendly, accurate, and has made tracking my
+                        grades a breeze. The interface is intuitive, and the ability to input various courses and
+                        credits makes it incredibly versatile. I give it a solid 5/5 for its efficiency and convenience.
+                        Highly recommend!</p>
+                    <div class="testi-footer">
+                        <h4>Saad Ali</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
                 </div>
-                <div id="testimonial-carousel" class="testimonial-carousel owl-carousel">
-                    <div class="testimonial-item">
-                        <p>I found the GPA calculator app to be incredibly useful for keeping track of my grades. It's intuitive to use, allowing me to easily input my courses and grades, and it quickly calculates my GPA. The interface is clean and straightforward, making it easy to navigate. One feature I particularly liked was the ability to set goals for my GPA and see what grades I need in future assignments to achieve them.</p>
-                        <div class="testi-footer">
-                            <h4>Muhammad Akbar</h4>
-                            <div class="rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
+                <div class="testimonial-item">
+                    <p>This GPA calculator app is incredibly user-friendly and accurate. The interface is clean and
+                        intuitive, allowing me to input my grades and credits quickly. I highly recommend this app to
+                        all students looking to keep a close eye on their GPA. Download it now you won't be
+                        disappointed.</p>
+                    <div class="testi-footer">
+                        <h4>Faisal Ahmad</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                         </div>
                     </div>
-                    <div class="testimonial-item">
-                        <p>I absolutely love the GPA calculator! It's user-friendly, accurate, and has made tracking my grades a breeze. The interface is intuitive, and the ability to input various courses and credits makes it incredibly versatile. I give it a solid 5/5 for its efficiency and convenience. Highly recommend!</p>
-                        <div class="testi-footer">
-                            <h4>Saad Ali</h4>
-                            <div class="rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
+                </div>
+                <div class="testimonial-item">
+                    <p>I was struggling to keep track of my grades, but this app made it so simple! The GPA Calculator
+                        is intuitive, user-friendly, and provides instant results. It's a game-changer for students like
+                        me. Highly recommended!</p>
+                    <div class="testi-footer">
+                        <h4>Shahab Khan</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                         </div>
                     </div>
-                    <div class="testimonial-item">
-                        <p>This GPA calculator app is incredibly user-friendly and accurate. The interface is clean and intuitive, allowing me to input my grades and credits quickly. I highly recommend this app to all students looking to keep a close eye on their GPA. Download it now you won't be disappointed.</p>
-                        <div class="testi-footer">
-                            <h4>Faisal Ahmad</h4>
-                            <div class="rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <p>I was struggling to keep track of my grades, but this app made it so simple! The GPA Calculator is intuitive, user-friendly, and provides instant results. It's a game-changer for students like me. Highly recommended!</p>
-                        <div class="testi-footer">
-                            <h4>Shahab Khan</h4>
-                            <div class="rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <p>GPA Calculator & Planner app is a game-changer! User-friendly, comprehensive, and stress-saving. Keeps me organized and focused. Highly recommended!</p>
-                        <div class="testi-footer">
-                            <h4>Ehsan Ali Khan</h4>
-                            <div class="rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
+                </div>
+                <div class="testimonial-item">
+                    <p>GPA Calculator & Planner app is a game-changer! User-friendly, comprehensive, and stress-saving.
+                        Keeps me organized and focused. Highly recommended!</p>
+                    <div class="testi-footer">
+                        <h4>Ehsan Ali Khan</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                         </div>
                     </div>
                 </div>
             </div>
-        </section><!-- /.testimonial-section -->
-        
-        <section id="download" class="download-section padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7">
-                        <div class="download-content">
-                            <h2>Try "GPA Calculator<br>& Planner" For Free!</h2>
-                            <p>Appium is a Powerful Landing Page Template for Mobile App. <br> Better way to present and promote your app website.</p>
-                            <a class="download-btn" href="https://play.google.com/store/apps/details?id=advc.calc.easygpacalculator"><img src="img/playstore.png" alt="Download Play Store"></a>
-                        </div>
+        </div>
+    </section>
+    <!-- /.testimonial-section -->
+    <section id="download" class="download-section padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="download-content">
+                        <h2>Try "GPA Calculator
+                            <br>& Planner" For Free!
+                        </h2>
+                        <p>Download the GPA Calculator & Planner app for free
+                            <br>to easily track and plan your academic progress.
+                        </p>
+                        <a class="download-btn"
+                            href="https://play.google.com/store/apps/details?id=advc.calc.easygpacalculator">
+                            <img src="img/playstore.png" alt="Download Play Store">
+                        </a>
                     </div>
-                    <div class="download-mockup"></div>
+                </div>
+                <div class="download-mockup">
                 </div>
             </div>
-        </section><!-- /.download-section -->
-        
-		    
-		<footer class="footer-section align-center">
-			<div class="container">
-				<p>Copyright &copy; 2024, TechABU Inc. Designed & Developed by Abu Zar Mishwani.</p>
-			</div>
-		</footer><!-- /.footer-section -->
+        </div>
+    </section>
+    <!-- /.download-section -->
+    <footer class="footer-section align-center">
+        <div class="container">
+            <p>Copyright &copy; 2024, TechABU Inc. Designed & Developed by Abu Zar Mishwani.</p>
+        </div>
+    </footer>
+    <!-- /.footer-section -->
+    <a data-scroll href="#header" id="scroll-to-top">
+        <i class="arrow_carrot-up"></i>
+    </a>
+    <!-- jQuery Lib -->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <!-- Tether JS -->
+    <script src="js/vendor/tether.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <!-- Slicknav JS -->
+    <script src="js/vendor/jquery.slicknav.min.js"></script>
+    <!-- OWL-Carousel JS -->
+    <script src="js/vendor/owl.carousel.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="js/vendor/swiper.min.js"></script>
+    <!-- Smooth Scroll JS -->
+    <script src="js/vendor/smooth-scroll.min.js"></script>
+    <!-- venobox JS -->
+    <script src="js/vendor/venobox.min.js"></script>
+    <!-- Ajaxchimp JS -->
+    <script src="js/vendor/jquery.ajaxchimp.min.js"></script>
+    <!-- Wow JS -->
+    <script src="js/vendor/wow.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+</body>
 
-		<a data-scroll href="#header" id="scroll-to-top"><i class="arrow_carrot-up"></i></a>
-	
-		<!-- jQuery Lib -->
-		<script src="js/vendor/jquery-1.12.4.min.js"></script>
-		<!-- Tether JS -->
-		<script src="js/vendor/tether.min.js"></script>
-		<!-- Bootstrap JS -->
-		<script src="js/vendor/bootstrap.min.js"></script>
-		<!-- Slicknav JS -->
-		<script src="js/vendor/jquery.slicknav.min.js"></script>
-		<!-- OWL-Carousel JS -->
-		<script src="js/vendor/owl.carousel.min.js"></script>
-		<!-- Swiper JS -->
-		<script src="js/vendor/swiper.min.js"></script>
-		<!-- Smooth Scroll JS -->
-		<script src="js/vendor/smooth-scroll.min.js"></script>
-		<!-- venobox JS -->
-		<script src="js/vendor/venobox.min.js"></script>
-		<!-- Ajaxchimp JS -->
-		<script src="js/vendor/jquery.ajaxchimp.min.js"></script>
-		<!-- Wow JS -->
-		<script src="js/vendor/wow.min.js"></script>
-		<!-- Main JS -->
-		<script src="js/main.js"></script>
-
-    </body>
 </html>
