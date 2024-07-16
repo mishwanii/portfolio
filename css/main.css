@@ -330,7 +330,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     left: 0;
     top: 0;
     padding: 10px 0;
-    overflow-x: hidden; /* Add this line */
+    overflow-x: hidden !important; /* Add this line */
 }
 
 .navbar-fixed-top.header-section {
@@ -339,6 +339,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     height: 70px;
     border-bottom: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .navbar-fixed-top ul.nav > li > a {
