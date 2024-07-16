@@ -9,11 +9,6 @@
 	border-bottom: 1px solid #ccc;
 }
 
-@media (max-width: 767px) {
-	.navbar-header .nav-btn, .slicknav_menu {
-		display: none !important;
-	}
-}
 
 body {
 	background-color: #fff;
@@ -304,9 +299,11 @@ button {
 	z-index: -1;
 }
 
+/* Hide preloader on all devices */
 #preloader {
     display: none !important;
 }
+
 
 .battery {
 	width: 28px;
@@ -524,7 +521,7 @@ ul.nav > li > a:hover, ul.nav > li > a:focus, ul.nav > li > a.active {
 
 .slicknav_btn {
 	background-color: transparent;
-	margin: -53px 5px 19px;
+	margin: -65px 5px 19px;
 }
 
 .slicknav_nav .slicknav_row:hover, .slicknav_nav .slicknav_row, .slicknav_nav a, .slicknav_nav a:hover {
@@ -842,7 +839,11 @@ ul.nav > li > a:hover, ul.nav > li > a:focus, ul.nav > li > a.active {
 	margin: 0;
 }
 
-.owl-nav {}
+html {
+    overflow-x: hidden;
+}
+
+
 
 .owl-nav div {
 	display: block;
