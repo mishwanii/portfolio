@@ -760,7 +760,8 @@ ul.nav>li>a.active {
 }
 
 .feature-content {
-	border: 5px solid transparent;
+	border: 2px solid transparent;
+	border-radius: 10px !important;
 	-moz-border-image: -moz-linear-gradient(-45deg, #000000 50%, #0000FF 100%);
 	-webkit-border-image: -webkit-linear-gradient(-45deg, #000000 50%, #0000FF 100%);
 	border-image: linear-gradient(-45deg, #000000 50%, #0000FF 100%);
@@ -770,7 +771,6 @@ ul.nav>li>a.active {
 }
 
 .feature-content:hover {
-	border: 5px solid transparent;
 	-moz-border-image: -moz-linear-gradient(-45deg, #0000FF 50%, #000000 100%);
 	-webkit-border-image: -webkit-linear-gradient(-45deg, #0000FF 50%, #000000 100%);
 	border-image: linear-gradient(-45deg, #0000FF 50%, #000000 100%);
