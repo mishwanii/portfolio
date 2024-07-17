@@ -471,7 +471,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
 .navbar-header .brand{
     font-size: 25px;
     color: #333;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: -1px;
     font-weight: 600;
 	margin-left: 13px;
@@ -501,7 +501,7 @@ ul.nav{}
 ul.nav > li{}
 ul.nav > li > a {
     color: rgba(255, 255, 255, 0.9);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: inline-block;
     vertical-align: middle;
     padding: 0 10px;
