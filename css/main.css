@@ -726,14 +726,8 @@ ul.nav>li>a.active {
 .promo-content {
 	background-color: #fff;
 	padding: 30px 15px;
-	transition: all .2s ease-in-out;
-}
-
-.promo-content:hover {
-	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
-	-webkit-transform: translateY(1.1);
-	transform: translateY(-5px);
-	transition: all .3s ease-in-out;
+	border-radius: 10px;
+	box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
 }
 
 .promo-content .icon {
@@ -989,7 +983,9 @@ html {
 }
 
 .testimonial-item {
-	background-color: #f4f9ff;
+	background-color: transparent;
+	border: 1px solid #ccc;
+	border-radius: 10px;
 	padding: 30px;
 	margin-bottom: 20px;
 }
